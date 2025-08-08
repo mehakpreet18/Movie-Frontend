@@ -9,6 +9,7 @@ import Trailer from './components/trailer/Trailer';
 import Reviews from './components/reviews/Reviews';
 import NotFound from './components/notFound/NotFound';
 
+// i am test branch change
 function App() {
 
   const [movies, setMovies] = useState();
@@ -47,7 +48,7 @@ function App() {
     } 
     catch (error) 
     {
-      console.error(error);
+      console.error('Error in getMovieData:', error);
     }
 
   }
